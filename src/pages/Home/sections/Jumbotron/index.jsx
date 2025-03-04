@@ -18,7 +18,7 @@ export default function Jumbotron() {
             baik terletak pada Jalan Moh Ramdhan, Desa Pangkalan, KAB. CIREBON.
           </h2>
           <div className="mt-6 flex justify-center lg:justify-start">
-            <Button text="Hubungi Kami" />
+            <Button text="Hubungi Kami" href="#kontak"/>
           </div>
         </div>
 

@@ -1,7 +1,9 @@
-export default function Button({text}) {
+export default function Button({text, href}) {
     return(
         <>
-            <button className='p-3 bg-green-backg text-black rounded-lg border-4 border-green-border'>{text}</button>
+        <a href={href}>
+            <span className="p-3 bg-green-backg text-black rounded-lg border-4 border-green-border">{text}</span>
+        </a>
         </>
     )
 }

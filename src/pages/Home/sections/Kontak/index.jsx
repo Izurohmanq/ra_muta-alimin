@@ -3,7 +3,7 @@ import PohonBackground from "../../../../components/PohonBackground";
 export default function Kontak() {
   return (
     <>
-      <div className="kontak bg-green-latte text-white p-10 sm:p-16 lg:p-20 flex flex-col md:flex-row justify-center items-center relative overflow-hidden gap-2 md:gap-10">
+      <div id="kontak" className="kontak bg-green-latte text-white p-10 sm:p-16 lg:p-20 flex flex-col md:flex-row justify-center items-center relative overflow-hidden gap-2 md:gap-10">
 
         <PohonBackground></PohonBackground>
 

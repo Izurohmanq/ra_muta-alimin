@@ -30,7 +30,7 @@ export default function Sejarah() {
               Bakung.
             </p>
             <div className="flex justify-center md:justify-start">
-              <Button text="Kenali Kami" />
+              <Button text="Kenali Kami" href="/profile"/>
             </div>
           </div>
         </div>
